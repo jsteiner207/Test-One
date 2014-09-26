@@ -1,16 +1,16 @@
 # Craps Roller
 # Demonstrates random number generation
 # Original Author: Michael Dawson
-# Last Edited: Thorin Schmidt
+# Last Edited: MR Jacob Steiner
 # Date Edited: 9/26/2014
 
-impart random
+import random
 
 # generate random numbers 1 - 6
 die1 = random.randint(1, 6) 
-die2 = random.randrange(6)
+die2 = random.randint(1, 6)
 
-total = 'die1' + 'die2'
+total = die1 + die2
 
 print("You rolled a", die1, "and a", die2, "for a total of", total)
 
